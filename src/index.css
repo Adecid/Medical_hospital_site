@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #de8d6c;
+
+    --color-tn: #7c4d3a;
+
+    --color-gray-100: #342d3d;
+    --color-gray-200: #141019;
+
+    --color-bg: #e7e5eb;
+    --color-icon: #8C7DFF;
+
+    --color-dark: #1f1d1a;
+
+    --background-image-hero-gradient: url('./bg-gradient.png');
+}
+
+@layer base {
+    body {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        scroll-behavior: smooth;
+    }
+    h1 {
+        @apply text-2xl sm:text-4xl font-bold tracking-tight text-dark
+    }
+    h2 {
+        @apply text-xl sm:text-2xl font-bold text-dark 
+    }
+    p {
+        @apply text-sm
+    }
+}
+
+@layer components {
+    .bg-hero-gradient {
+        @apply bg-hero-gradient bg-center bg-cover bg-repeat w-screen h-screen relative;
+    }
+}
