@@ -4,6 +4,7 @@
 
 @theme {
     --color-primary: #de8d6c;
+    --color-primary-dark: #270b00;
 
     --color-tn: #7c4d3a;
 
@@ -32,6 +33,9 @@
     }
     p {
         @apply text-sm
+    }
+    button {
+        @apply text-[.8rem] capitalize text-violet-50 font-semibold
     }
 }
 

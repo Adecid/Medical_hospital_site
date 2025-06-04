@@ -18,11 +18,11 @@ import {
     
 } from "../assets";
 
-const navigation = [
+export const navigation = [
     {
         id: "0",
         title: "Home",
-        url: "#home"
+        url: "home"
     },
     {
         id: "1",
@@ -32,21 +32,21 @@ const navigation = [
     {
         id: "2",
         title: "Pages",
-        url: "#pages"
+        url: "pages"
     },
     {
         id: "3",
         title: "Blog",
-        url: "#blog"
+        url: "blog"
     },
     {
         id: "4",
         title: "Contact",
-        url: "#contact"
+        url: "contact"
     },
 ];
 
-const service = [
+export const service = [
     {
         id: "0",
         title: "General Checkups",
@@ -85,7 +85,7 @@ const service = [
     },
 ];
 
-const aboutTopSection = [
+export const aboutTopSection = [
     {
         id: "0",
         title: "Experienced Doctors"
@@ -100,7 +100,7 @@ const aboutTopSection = [
     },
 ];
 
-const aboutBottomSection = [
+export const aboutBottomSection = [
     {
         id: "0",
         title: "Renowned Medical Experts:",
@@ -118,7 +118,7 @@ const aboutBottomSection = [
     },
 ];
 
-const medicalSpecialist = [
+export const medicalSpecialist = [
     {
         id: "0",
         title: "Dr. Wade Warren",
@@ -141,14 +141,14 @@ const medicalSpecialist = [
     },
 ];
 
-const Partners = [
+export const Partners = [
     partnerlogo1, partnerlogo2, partnerlogo3, partnerlogo4
 ];
 
-const footerNav = [
+export const footerNav = [
     "Home", "About Us", "Service", "Resume", "Project"
 ];
 
-const footerContact = [
+export const footerContact = [
     "+91 7738443636", "Jaycrea36@gmail.com", "Portfolio-jcrea.com"
 ];
