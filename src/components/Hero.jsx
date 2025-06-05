@@ -26,7 +26,7 @@ const Hero = () => {
 
               <ul className="flex max-xs:hidden items-center w-full mt-5">
                 {heroBottom.map((item, index) => (
-                  <div className="flex items-center nth-[1]:[&>div]:bg-gray-100/50 nth-[1]:[&>div]:w-0.5 nth-[1]:[&>div]:h-5 nth-[2]:[&>div]:bg-gray-100/50 nth-[2]:[&>div]:w-0.5 nth-[2]:[&>div]:h-5">
+                  <div key={index} className="flex items-center nth-[1]:[&>div]:bg-gray-100/50 nth-[1]:[&>div]:w-0.5 nth-[1]:[&>div]:h-5 nth-[2]:[&>div]:bg-gray-100/50 nth-[2]:[&>div]:w-0.5 nth-[2]:[&>div]:h-5">
                     <li key={index} className="flex flex-col">
                       <h3 className="text-lg font-semibold text-gray-100 font-poppins">{item.num}</h3>
                       <p className="text-xs capitalize font-semibold text-gray-700">{item.title}</p>

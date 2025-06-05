@@ -1,4 +1,5 @@
 import { 
+    iconGradient,
     partnerlogo1, 
     partnerlogo2, 
     partnerlogo3, 
@@ -41,42 +42,48 @@ export const navigation = [
     },
 ];
 
-export const service = [
+export const services = [
     {
         id: "0",
         title: "General Checkups",
-        text: "Our comprehensive medical examinations include blood tests, vital sign monitoring, and lifestyle assessments to ensure you stay on top of your health.",
+        text: "Our comprehensive medical examinations <br /> include blood tests, vital sign monitoring, and <br /> lifestyle assessments to ensure you stay on top <br /> of your health.",
         iconUrl: service1,
+        imgUrl: iconGradient
     },
     {
         id: "1",
         title: "Specialist Consultations",
-        text: "Our comprehensive medical examinations include blood tests, vital sign monitoring, and lifestyle assessments to ensure you stay on top of your health.",
+        text: "Our comprehensive medical examinations <br /> include blood tests, vital sign monitoring, and <br /> lifestyle assessments to ensure you stay on top <br /> of your health.",
         iconUrl: service2,
+        imgUrl: iconGradient
     },
     {
         id: "2",
         title: "Emergency Care",
-        text: "Our comprehensive medical examinations include blood tests, vital sign monitoring, and lifestyle assessments to ensure you stay on top of your health.",
+        text: "Our comprehensive medical examinations <br /> include blood tests, vital sign monitoring, and <br /> lifestyle assessments to ensure you stay on top <br /> of your health.",
         iconUrl: service3,
+        imgUrl: iconGradient
     },
     {
         id: "3",
         title: "Surgical Procedures",
-        text: "Our comprehensive medical examinations include blood tests, vital sign monitoring, and lifestyle assessments to ensure you stay on top of your health.",
+        text: "Our comprehensive medical examinations <br /> include blood tests, vital sign monitoring, and <br /> lifestyle assessments to ensure you stay on top <br /> of your health.",
         iconUrl: service4,
+        imgUrl: iconGradient
     },
     {
         id: "4",
         title: "Diagnostic Imaging",
-        text: "Our comprehensive medical examinations include blood tests, vital sign monitoring, and lifestyle assessments to ensure you stay on top of your health.",
+        text: "Our comprehensive medical examinations <br /> include blood tests, vital sign monitoring, and <br /> lifestyle assessments to ensure you stay on top <br /> of your health.",
         iconUrl: service5,
+        imgUrl: iconGradient
     },
     {
         id: "5",
         title: "Pediatrics",
-        text: "Our comprehensive medical examinations include blood tests, vital sign monitoring, and lifestyle assessments to ensure you stay on top of your health.",
+        text: "Our comprehensive medical examinations <br /> include blood tests, vital sign monitoring, and <br /> lifestyle assessments to ensure you stay on top <br /> of your health.",
         iconUrl: service6,
+        imgUrl: iconGradient
     },
 ];
 
