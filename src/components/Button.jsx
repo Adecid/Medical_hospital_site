@@ -1,6 +1,6 @@
 const Button = ({ title, onClick, className, borderblur, href}) => {
     const classes = `button bg-primary py-2 px-3 cursor-pointer rounded-3xl ${className || ''}`
-    const classBlur = `${borderblur && 'bg-primary/30 p-0.5 rounded-3xl'}`
+    const classBlur = `${borderblur && 'bg-primary/30 p-[3px] rounded-3xl'} ${className  || ''}`
     return href ? (
     <a href={href} className={classBlur}>
       <div className={classes}>

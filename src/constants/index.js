@@ -22,27 +22,22 @@ export const navigation = [
     {
         id: "0",
         title: "Home",
-        url: "home"
     },
     {
         id: "1",
         title: "Features",
-        url: "features"
     },
     {
         id: "2",
         title: "Pages",
-        url: "pages"
     },
     {
         id: "3",
         title: "Blog",
-        url: "blog"
     },
     {
         id: "4",
         title: "Contact",
-        url: "contact"
     },
 ];
 
@@ -152,3 +147,18 @@ export const footerNav = [
 export const footerContact = [
     "+91 7738443636", "Jaycrea36@gmail.com", "Portfolio-jcrea.com"
 ];
+
+export const heroBottom = [
+    {
+        num: "24/7", 
+        title: "emergency support"
+    },
+    {
+        num: "100+", 
+        title: "specialize doctors"
+    },
+    {
+        num: "200+", 
+        title: "advanced medical facilities."
+    }
+]

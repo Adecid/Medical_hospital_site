@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 @import "tailwindcss";
 
@@ -12,11 +13,13 @@
     --color-gray-200: #141019;
 
     --color-bg: #e7e5eb;
-    --color-icon: #8C7DFF;
+    --color-blue: #8C7DFF;
 
     --color-dark: #1f1d1a;
 
-    --background-image-hero-gradient: url('./bg-gradient.png');
+    --font-poppins: "Poppins", sans-serif;
+
+    --background-image-hero-gradient: url('./bg_gradient.png');
 }
 
 @layer base {
@@ -24,15 +27,16 @@
         font-family: "Manrope", sans-serif;
         font-optical-sizing: auto;
         scroll-behavior: smooth;
+        margin: 0;
     }
     h1 {
-        @apply text-2xl sm:text-4xl font-bold tracking-tight text-dark
+        @apply text-[2.9rem] sm:text-[3.4rem] font-bold tracking-tight text-dark
     }
     h2 {
         @apply text-xl sm:text-2xl font-bold text-dark 
     }
     p {
-        @apply text-sm
+        @apply text-[17px] lg:text-xl
     }
     button {
         @apply text-[.8rem] capitalize text-violet-50 font-semibold
@@ -41,6 +45,9 @@
 
 @layer components {
     .bg-hero-gradient {
-        @apply bg-hero-gradient bg-center bg-cover bg-repeat w-screen h-screen relative;
+        @apply bg-hero-gradient bg-center bg-cover bg-no-repeat w-screen min-h-screen relative;
+    }
+    .container {
+        @apply px-5 md:px-7 lg:px-10 mx-auto
     }
 }
