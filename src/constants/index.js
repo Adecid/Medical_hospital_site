@@ -128,7 +128,7 @@ export const medicalSpecialist = [
     },
     {
         id: "1",
-        title: "Dr. Guy Hawkins",
+        title: "Dr. Leslie Alexander.",
         imageUrl: specialist2,
     },
     {
@@ -138,7 +138,7 @@ export const medicalSpecialist = [
     },
     {
         id: "3",
-        title: "Dr. Leslie Alexander.",
+        title: "Dr. Guy Hawkins",
         imageUrl: specialist4,
     },
 ];

@@ -27,7 +27,6 @@
         font-family: "Manrope", sans-serif;
         font-optical-sizing: auto;
         scroll-behavior: smooth;
-        margin: 0;
     }
     h1 {
         @apply text-[2.9rem] sm:text-[3.4rem] font-bold tracking-tight text-dark
@@ -58,5 +57,8 @@
     }
     .isvisible {
         @apply bg-white/20 backdrop-blur-md
+    }
+    .primary_text span {
+        @apply text-primary
     }
 }

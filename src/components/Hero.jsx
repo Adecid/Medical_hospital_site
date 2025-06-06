@@ -10,7 +10,7 @@ import { TiPlus } from "react-icons/ti";
 
 const Hero = () => {
   return (
-    <div className="relative bg-white">
+    <div id="home" className="relative bg-white">
       <div className="relative bg-hero-gradient min-h-dvh rounded-b-[3rem]">
         <div className="relative container py-[8rem]">
           <div className="w-full flex max-md:flex-wrap items-center">

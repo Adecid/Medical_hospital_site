@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Service from "./components/Service"
 import About from "./components/About"
+import OurExperts from "./components/OurExperts"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Service />
       <About />
+      <OurExperts />
     </div>
   )
 }
