@@ -15,7 +15,7 @@ const serviceCard = ({card: {
           }}>
           <img src={iconUrl} className="opacity-90 m-auto -mt-0.5 size-full" alt={title} />
         </div>
-      <h3 className="font-bold text-gray-100 mb-4">{title}</h3>
+      <h4 className="font-bold text-gray-100 mb-4">{title}</h4>
       <div className=" ">
         {text.split("<br />").map(br => (
           <p className="font-bold text-gray-100/80 leading-4.5 text-xs">{br}</p>

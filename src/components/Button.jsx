@@ -1,5 +1,5 @@
-const Button = ({ title, onClick, className, borderblur, href}) => {
-    const classes = `button bg-primary py-2 px-3 cursor-pointer rounded-3xl ${className || ''}`
+const Button = ({ title, onClick, className, borderblur, href, stoke}) => {
+    const classes = `button bg-primary py-2 px-3 cursor-pointer rounded-3xl ${stoke && 'text-primary-dark bg-transparent border border-primary'} ${className || ''}`
     const classBlur = `${borderblur && 'bg-primary/30 p-[3px] rounded-3xl'} ${className  || ''}`
     return href ? (
     <a href={href} className={classBlur}>
