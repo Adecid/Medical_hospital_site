@@ -5,7 +5,7 @@ import About from "./components/About"
 import OurExperts from "./components/OurExperts"
 import Appointment from "./components/Appointment"
 import Contact from "./components/Contact"
-// import Footer from "./components/Footer"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <OurExperts />
       <Appointment />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

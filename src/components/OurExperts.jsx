@@ -4,7 +4,7 @@ import Heading from "./Heading"
 
 const OurExperts = () => {
   return (
-    <div className="relative container py-[8rem]">
+    <div className="relative container pt-[8rem] pb-[4rem]">
       <Heading>
         Meet Our <span>Expert</span> Doctors & <br /> Medical <span>Specialists</span>
       </Heading>

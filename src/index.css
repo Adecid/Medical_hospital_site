@@ -41,10 +41,10 @@
         @apply text-xl md:text-[1.34rem]
     }
     p {
-        @apply text-[1rem]
+        @apply text-[1rem] font-semibold
     }
     button {
-        @apply text-[.8rem] capitalize text-violet-50 font-semibold
+        @apply text-[.8rem] capitalize text-violet-50 font-semibold outline-0
     }
 }
 
@@ -71,4 +71,13 @@
             @apply w-full bg-white h-13 rounded-4xl border-2 border-gray-300/40 text-sm font-semibold text-gray-100 indent-6 outline-0
         }
     }
+    .footer {
+        & p {
+            @apply text-[1rem] text-primary font-bold mb-5;
+        }
+        & ul li a {
+            @apply text-sm font-semibold text-gray-700;
+        }
+    }
+
 }
