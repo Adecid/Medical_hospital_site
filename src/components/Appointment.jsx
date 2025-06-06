@@ -16,10 +16,10 @@ const Appointment = () => {
             </div>
         </div>
         <div className="absolute top-0 -right-5 opacity-60">
-            <img src={cross1} width={150} alt=""Cross />
+            <img src={cross1} width={150} alt="Cross" />
         </div>
         <div className="absolute bottom-0 left-5 opacity-60">
-            <img src={cross2} width={80} alt=""Cross />
+            <img src={cross2} width={80} alt="Cross" />
         </div>
       </div>
     </div>

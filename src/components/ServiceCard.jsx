@@ -5,7 +5,7 @@ const serviceCard = ({card: {
   imgUrl
 }}) => {
   return (
-    <div className="max-w-[21rem] h-auto flex justify-center flex-col items-center bg-gray-300/20 p-7 text-center rounded-3xl border-2 border-gray-100/10">
+    <div className="max-w-[21rem] h-auto flex justify-center flex-col items-center bg-gray-300/20 p-7 text-center rounded-3xl border-2 border-gray-300/10">
         <div className="flex items-center opacity-80 p-3 justify-center bg-[length:100%_100%] mb-1" style={{ 
           backgroundImage: `url(${imgUrl})`,
           backgroundRepeat: 'no-repeat',

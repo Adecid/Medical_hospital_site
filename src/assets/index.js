@@ -1,5 +1,5 @@
 import herodoctor1 from "./herodoctor_1.png";
-import herodoctor2 from "./herodoctor_1.png";
+import herodoctor2 from "./herodoctor_2.png";
 
 import medcare_1 from "./medcare_1.png";
 import medcare_2 from "./medcare_2.png";

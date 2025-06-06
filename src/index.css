@@ -53,7 +53,7 @@
         @apply bg-hero-gradient bg-center bg-cover bg-no-repeat w-screen min-h-screen relative;
     }
     .bg-container-gradient {
-        @apply bg-hero-gradient bg-center bg-cover bg-no-repeat max-w-5xl mx-auto rounded-[3rem] relative text-center flex flex-col gap-4 py-18 px-20 overflow-hidden;
+        @apply bg-hero-gradient bg-center bg-cover bg-no-repeat max-w-[68rem] mx-auto rounded-[3rem] relative text-center flex flex-col gap-4 py-18 px-20 overflow-hidden;
     }
     .container {
         @apply px-5 md:px-7 lg:px-10 mx-auto
@@ -63,5 +63,12 @@
     }
     .primary_text span {
         @apply text-primary
+    }
+    .flexinput {
+        @apply flex items-center justify-between gap-3;
+
+       & input {
+            @apply w-full bg-white h-13 rounded-4xl border-2 border-gray-300/40 text-sm font-semibold text-gray-100 indent-6 outline-0
+        }
     }
 }
