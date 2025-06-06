@@ -41,7 +41,7 @@
         @apply text-xl md:text-[1.34rem]
     }
     p {
-        @apply text-[17px] lg:text-xl
+        @apply text-[1rem]
     }
     button {
         @apply text-[.8rem] capitalize text-violet-50 font-semibold
@@ -51,6 +51,9 @@
 @layer components {
     .bg-hero-gradient {
         @apply bg-hero-gradient bg-center bg-cover bg-no-repeat w-screen min-h-screen relative;
+    }
+    .bg-container-gradient {
+        @apply bg-hero-gradient bg-center bg-cover bg-no-repeat max-w-5xl mx-auto rounded-[3rem] relative text-center flex flex-col gap-4 py-18 px-20 overflow-hidden;
     }
     .container {
         @apply px-5 md:px-7 lg:px-10 mx-auto
