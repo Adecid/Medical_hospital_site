@@ -6,6 +6,7 @@ import Button from './Button';
 import { useEffect, useRef, useState } from 'react';
 import MenuSvg from '../assets/svg/MenuSvg';
 import { useWindowScroll } from 'react-use';
+import { enablePageScroll, disablePageScroll } from '@fluejs/noscroll';
 
 const Header = () => {
     const navContainerRef = useRef(null);
@@ -19,8 +20,10 @@ const Header = () => {
     const toggleNavigation = () => {
         if(openNavigation) {
             setOpenNavigation(false);
+            enablePageScroll();
         } else {
             setOpenNavigation(true);
+            disablePageScroll();
         }
     }
 
@@ -28,6 +31,7 @@ const Header = () => {
         if(!openNavigation) return;
 
         setOpenNavigation(false);
+        enablePageScroll();
     }
 
     useEffect(() => {
@@ -38,7 +42,7 @@ const Header = () => {
         }
 
         setLastScrollY(currentScrollY);
-    });
+    }, [currentScrollY, lastScrollY]);
 
     return (
         <header className={`fixed w-full top-0 z-50 ${openNavigation ? 'bg-primary' : 'lg:bg-transparent'}`}>

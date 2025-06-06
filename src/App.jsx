@@ -9,7 +9,7 @@ import Contact from "./components/Contact"
 
 const App = () => {
   return (
-    <div className="relative min-h-screen w-screen overflow-x-hidden">
+    <div className="relative min-h-screen w-full overflow-x-hidden">
       <Header />
       <Hero />
       <Service />

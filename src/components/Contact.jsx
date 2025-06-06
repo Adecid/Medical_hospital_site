@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="bg-gradient/30 overflow-hidden">
       <div className="relative container min-h-dvh pt-[7rem]">
-        <div className="flex items-start max-sm:pl-5 pl-10 w-full md:max-w-1/2">
+        <div className="flex items-start w-full md:max-w-1/2">
             <div className="flex-1 z-2 w-full md:max-w-xl mx-auto">
                 <h2 className="font-poppins tracking-wide font-semibold text-gray-100 mb-5">Book A Free Consultation</h2>
                 <form action="" className="flex flex-col gap-4">
