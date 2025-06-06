@@ -26,7 +26,7 @@ A modern, responsive, and user-friendly website for a medical hospital. This pro
 
 ```bash
 # 1. Clone the repository
-git clone 
+git clone https://github.com/Adecid/Medical_hospital_site
 
 # 2. Navigate into the project folder
 cd Medical-hospital
