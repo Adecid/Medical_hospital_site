@@ -4,7 +4,7 @@ A modern, responsive, and user-friendly website for a medical hospital. This pro
 
 ## 📸 Preview
 
-<!-- ![Website Preview](preview-image.png) -->
+![Website Preview](./public/preview_image.png)
 
 ---
 
